@@ -72,6 +72,11 @@ body {
 
 }
 
+.toys h1{
+    margin-left: 2%;
+    font-family: "Century Gothic", serif;
+}
+
 .toys div:hover {
     transform: scale(1.1);
 
@@ -83,23 +88,23 @@ body {
     margin: 0px;
 }
 
-.site-footer {
-    width: 100%;
-    height: 70px;
-    background-color: blueviolet;
-    color: #ffffff;
-    font-family: "Century Gothic", serif;
-    left: 0;
-    bottom: 0;
-    text-align: center;
-}
+/*.site-footer {*/
+/*    width: 100%;*/
+/*    height: 70px;*/
+/*    background-color: blueviolet;*/
+/*    color: #ffffff;*/
+/*    font-family: "Century Gothic", serif;*/
+/*    left: 0;*/
+/*    bottom: 0;*/
+/*    text-align: center;*/
+/*}*/
 
 
-.site-footer p {
-    display: inline-block;
-    vertical-align: auto;
-    padding: 0 10px;
-}
+/*.site-footer p {*/
+/*    display: inline-block;*/
+/*    vertical-align: auto;*/
+/*    padding: 0 10px;*/
+/*}*/
 
 .menubar{
     padding: 20px 10px;
@@ -240,4 +245,21 @@ body {
 .footer a:hover{
     color: #ABABAB;
 
+}
+
+.persArea div{
+    display: inline-block;
+    font-family: "Century Gothic", serif;
+
+}
+
+.persArea img{
+    width: 180px;
+    background: dodgerblue;
+    border-radius: 10px;
+}
+
+.persArea {
+    margin-bottom: 30%;
+    margin-left: 4%;
 }

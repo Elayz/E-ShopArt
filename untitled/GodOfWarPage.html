@@ -6,17 +6,34 @@
     <link rel="stylesheet" href="webst.css">
 </head>
 <body>
-<section class="menubar">
-    <ul>
-        <div>
-            <li><a href="index.html" style="margin-left: 30px; margin-top: -10px"><img src="toys/babaBlue.png" alt="logo"></img></a></li>
-            <li><a href="toyPage.html">News</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </div>
-        <li style="float:right; margin-right: 110px" ><a class="active" href="#about">About</a></li>
-    </ul>
-</section>
-<section class="toyPageText">\
+<nav class="menubar">
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="toyPage.html" style="color: #383ce3">Products</a>
+            </li>
+            <li>
+                <a href="/main">Admin</a>
+            </li>
+            <li>
+                <a href="/user">User list</a>
+            </li>
+            <li style="float: right">
+                <a style="float: right" href="favourites.html">Favourites</a>
+            </li>
+            <li style="float: right">
+                <a href="/cart">Cart</a>
+            </li>
+            <li style="float: right">
+                <a href="persArea.html">Personal Area</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<section class="toyPageText">
     <h1 style="font-size: 300%;">Название</h1>
     <h1>ЦЕНА:</h1>
 </section>
@@ -24,13 +41,13 @@
     <figure class="gallery__item gallery__item--1">
         <img src="toys/GodOfWar.png" class="gallery__img" alt="Image 1">
     </figure>
-    <figure class="gallery__item gallery__item--2">
+    <figure class="gallery__item gallery__item--2" style="margin-left: 0px">
         <img src="toys/GodOfWar.png" class="gallery__img" alt="Image 2">
     </figure>
-    <figure class="gallery__item gallery__item--3">
+    <figure class="gallery__item gallery__item--3" style="margin-left: 0px">
         <img src="toys/GodOfWar.png" class="gallery__img" alt="Image 3">
     </figure>
-    <figure class="gallery__item gallery__item--4">
+    <figure class="gallery__item gallery__item--4" style="margin-left: 0px">
         <img src="toys/GodOfWar.png" class="gallery__img" alt="Image 4">
     </figure>
     <div class="toyPageText">
@@ -55,10 +72,11 @@
         </br>
     </div>
 </section>
-<footer class="site-footer">
-    <div class="container">
-        <p>© Мстихуители, 2023</p>
-        <p>Магазин статуэток</p>
+<footer class="footer">
+    <div class="footer-container">
+        <p>© E-shop, 2023</p>
+        <a href="">Пользовательское соглашение</a>
+        <a href="">Политика конфиденциальности</a>
     </div>
 </footer>
 </body>
