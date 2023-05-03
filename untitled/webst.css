@@ -77,6 +77,11 @@ body {
     font-family: "Century Gothic", serif;
 }
 
+.toys button{
+    margin-left: 2%;
+    font-family: "Century Gothic", serif;
+}
+
 .toys div:hover {
     transform: scale(1.1);
 
